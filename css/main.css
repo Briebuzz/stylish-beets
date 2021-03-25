@@ -13,14 +13,14 @@ html {
 font-family: 'PT Serif', serif; */
 
 h1 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
   color: #3f1622;
 }
 
 nav ol li {
   list-style-type: none;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-size: 1.25rem;
 }
 
@@ -29,12 +29,24 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+  color: #3f1622;
+  border-bottom: none;
+}
+
 img {
   width: 100%;
+}
+
+figcaption {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-size: .8rem;
 }
 
 h2 {
   color: #3f1622;
   font-size: 1.5rem;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
